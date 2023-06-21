@@ -78,3 +78,41 @@ line-height: 22px;
 textarea{
     width: 100%;
   }
+@import "primeicons/primeicons.css";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.table-header input{
+    width: 230px;
+    height: 41px;
+    
+}
+.diagram{
+    height: 63px;
+    margin-top: 41px;
+}
+.eplsearch input{
+    width: 304px;
+    height: 43px;
+    
+}
+
+.eplsearch {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.icons td i{
+     margin-left: 20px;
+}
+.switch td p{
+    display: flex;
+    justify-content: center;
+}
+#employee-details{
+    margin-top: 68px;
+}
