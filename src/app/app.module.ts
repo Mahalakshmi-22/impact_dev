@@ -17,7 +17,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { SetpasswordComponent } from './setpassword/setpassword.component';
 import { PasswordResetComponent } from './password-reset/password-reset.component';
-
+import { PaginatorModule } from 'primeng/paginator';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +37,8 @@ import { PasswordResetComponent } from './password-reset/password-reset.componen
     InputSwitchModule,
     FileUploadModule,
     FormsModule,InputTextModule,
-    TabMenuModule
+    TabMenuModule,
+    PaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
