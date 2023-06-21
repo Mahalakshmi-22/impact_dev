@@ -9,10 +9,9 @@ import { TeamComponent } from './team/team.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { LayoutComponent } from './layout/layout.component';
-import { TabMenuModule } from 'primeng/tabmenu';
 import { SetpasswordComponent } from './setpassword/setpassword.component';
 import { PasswordResetComponent } from './password-reset/password-reset.component';
-
+import { TabViewModule } from 'primeng/tabview';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +19,7 @@ import { PasswordResetComponent } from './password-reset/password-reset.componen
     TeamComponent,
     DashboardComponent,
     EmployeeDetailsComponent,
+  
     LayoutComponent,
     SetpasswordComponent,
     PasswordResetComponent
@@ -28,7 +28,7 @@ import { PasswordResetComponent } from './password-reset/password-reset.componen
     BrowserModule,CardModule,
     AppRoutingModule,
     ButtonModule,
-    TabMenuModule
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]

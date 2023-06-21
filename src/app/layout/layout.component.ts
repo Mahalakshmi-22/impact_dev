@@ -5,6 +5,7 @@ import { MenuItem } from 'primeng/api';
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss']
 })
+
 export class LayoutComponent {
   items: MenuItem[] | undefined;
 
