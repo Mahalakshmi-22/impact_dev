@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { CardModule } from 'primeng/card';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonModule } from 'primeng/button';
@@ -9,6 +9,7 @@ import { TeamComponent } from './team/team.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { LayoutComponent } from './layout/layout.component';
+import { TabMenuModule } from 'primeng/tabmenu';
 
 @NgModule({
   declarations: [
@@ -20,9 +21,10 @@ import { LayoutComponent } from './layout/layout.component';
     LayoutComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,CardModule,
     AppRoutingModule,
-    ButtonModule
+    ButtonModule,
+    TabMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

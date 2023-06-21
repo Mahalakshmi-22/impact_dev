@@ -5,6 +5,7 @@ import { TeamComponent } from './team/team.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { LayoutComponent } from './layout/layout.component';
+import { AppComponent } from './app.component';
 const routes: Routes = [
   {
     path: 'signup',
@@ -23,6 +24,7 @@ const routes: Routes = [
     path: 'layout',
     component: LayoutComponent,
   },
+ 
 ];
 
 
