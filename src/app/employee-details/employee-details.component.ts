@@ -166,7 +166,7 @@ export class EmployeeDetailsComponent {
     { EmployeeID: 19, EmployeeName: "maha", EmployeeEmail: "jhyhjuhj", Role: "hgghghg", ContactNumber: "8989898", EmailID: "vignesh@gmail.com", EmployeeStatus: "kjhkjhkjkj", Actions: "" },
     { EmployeeID: 19, EmployeeName: "Yogesh", EmployeeEmail: "jhyhjuhj", Role: "hgghghg", ContactNumber: "8989898", EmailID: "vignesh@gmail.com", EmployeeStatus: "kjhkjhkjkj", Actions: "" },
     { EmployeeID: 19, EmployeeName: "Ajith kumar", EmployeeEmail: "jhyhjuhj", Role: "hgghghg", ContactNumber: "8989898", EmailID: "vignesh@gmail.com", EmployeeStatus: "kjhkjhkjkj", Actions: "" },
-    { EmployeeID: 19, EmployeeName: "", EmployeeEmail: "jhyhjuhj", Role: "hgghghg", ContactNumber: "8989898", EmailID: "vignesh@gmail.com", EmployeeStatus: "kjhkjhkjkj", Actions: "" },
+    { EmployeeID: 19, EmployeeName: "Legend", EmployeeEmail: "jhyhjuhj", Role: "hgghghg", ContactNumber: "8989898", EmailID: "vignesh@gmail.com", EmployeeStatus: "kjhkjhkjkj", Actions: "" },
     { EmployeeID: 19, EmployeeName: "Yogesh", EmployeeEmail: "jhyhjuhj", Role: "hgghghg", ContactNumber: "8989898", EmailID: "vignesh@gmail.com", EmployeeStatus: "kjhkjhkjkj", Actions: "" },
     { EmployeeID: 19, EmployeeName: "Yogesh", EmployeeEmail: "jhyhjuhj", Role: "hgghghg", ContactNumber: "8989898", EmailID: "vignesh@gmail.com", EmployeeStatus: "kjhkjhkjkj", Actions: "" },
     { EmployeeID: 19, EmployeeName: "Yogesh", EmployeeEmail: "jhyhjuhj", Role: "hgghghg", ContactNumber: "8989898", EmailID: "vignesh@gmail.com", EmployeeStatus: "kjhkjhkjkj", Actions: "" },
