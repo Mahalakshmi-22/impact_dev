@@ -5,6 +5,8 @@ import { TeamComponent } from './team/team.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { LayoutComponent } from './layout/layout.component';
+import { SetpasswordComponent } from './setpassword/setpassword.component';
+import { PasswordResetComponent } from './password-reset/password-reset.component';
 const routes: Routes = [
   {
     path: 'signup',
@@ -22,7 +24,14 @@ const routes: Routes = [
   }, {
     path: 'layout',
     component: LayoutComponent,
+  },{
+    path: 'setpassword',
+    component: SetpasswordComponent,
   },
+  {
+    path: 'resetpassword',
+    component: PasswordResetComponent,
+  }
 ];
 
 

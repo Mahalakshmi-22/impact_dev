@@ -9,6 +9,8 @@ import { TeamComponent } from './team/team.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { LayoutComponent } from './layout/layout.component';
+import { SetpasswordComponent } from './setpassword/setpassword.component';
+import { PasswordResetComponent } from './password-reset/password-reset.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { LayoutComponent } from './layout/layout.component';
     TeamComponent,
     DashboardComponent,
     EmployeeDetailsComponent,
-    LayoutComponent
+    LayoutComponent,
+    SetpasswordComponent,
+    PasswordResetComponent
   ],
   imports: [
     BrowserModule,
