@@ -15,12 +15,17 @@
 .eplsearch input{
     width: 304px;
     height: 43px;
+    
 }
-.upload{
+
+.eplsearch {
     display: flex;
-    justify-content: end;
-    margin-top: -44px;
+    justify-content: space-between;
 }
+
+
+
+
 .icons td i{
      margin-left: 20px;
 }
