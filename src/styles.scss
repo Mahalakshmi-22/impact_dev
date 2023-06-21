@@ -232,4 +232,27 @@
     justify-content: end;
     margin-top: -16px;
 }
-}
+.p-datatable  .p-datatable-thead > tr > th{
+  
+   
+  padding: 0px;
+  height: 46px;
+  padding-left: 12px;
+ background-color: palegoldenrod;
+  color: #050505;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  
+    }
+    .p-datatable .p-datatable-tbody>tr>td {
+      padding: 0px;
+      height: 42px;
+      padding-left: 12px;
+      color: rgba(0, 0, 0, 0.85);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+   
+    }
+  }
