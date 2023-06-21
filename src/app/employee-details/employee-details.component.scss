@@ -1,0 +1,23 @@
+@import "primeicons/primeicons.css";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.table-header input{
+    width: 230px;
+    height: 41px;
+    
+}
+.upload{
+    display: flex;
+    justify-content: end;
+    margin-top: -44px;
+}
+.icons td i{
+     margin-left: 20px;
+}
+.switch td p{
+    display: flex;
+    justify-content: center;
+}
+

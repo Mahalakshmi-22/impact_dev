@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+// .p-icon-wrapper {
+    
+//     // display: flex;
+//     // justify-content: space-evenly;
+// }
+
+#employee-details{
+.employeeTable tr th span{
+    display: flex;
+    justify-content: end;
+    margin-top: -16px;
+}
+}

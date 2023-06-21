@@ -9,6 +9,11 @@ import { TeamComponent } from './team/team.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { LayoutComponent } from './layout/layout.component';
+import { InputSwitchModule } from 'primeng/inputswitch';
+import { TableModule } from 'primeng/table';
+import { FileUploadModule } from 'primeng/fileupload';
+import { FormsModule } from '@angular/forms';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,11 @@ import { LayoutComponent } from './layout/layout.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ButtonModule
+    ButtonModule,
+    TableModule,
+    InputSwitchModule,
+    FileUploadModule,
+    FormsModule,InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]
