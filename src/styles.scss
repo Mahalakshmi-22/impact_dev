@@ -1,1 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+
+   
+// }
+#team{
+    .p-sidebar{
+        width: 40%;
+    }
+}
+#team{
+    .p-sidebar-header{
+     border-bottom: 1px solid #e2e2e2;
+    }
+}
+
+
+#team {
+    width: 500px;
+    .p-dropdown{
+        width: 100% !important;
+        height: 37px;
+}
+        // padding: 0px;
+    }
+    .p-sidebar{
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+    }
+    
+   
+    .canceled{
+        .p-button{
+            height: 32px;
+            background-color: white;
+            color: #000000;
+        }
+        .p-button:hover{
+            background-color: white;
+        }
+
+    
+.p-button:enabled:hover {
+    background:none;
+    color:black;
+    border-color:black;
+}
+p-button:focus {
+    box-shadow: none; 
+}
+    
+    }
+    .submit{
+        .p-button{
+          height: 32px;
+        }
+    }
+
+.canceled{
+    .p-button:focus {
+        box-shadow: none; 
+   }
+   .p-button:focus {
+       outline: none;
+       outline-offset: none;
+       box-shadow: none;
+   }
+   .canceled .p-button {
+       height: 32px;
+       background-color: white;
+       color: #000000;
+   }
+   .p-button:focus {
+       box-shadow: none;
+   }
+   .p-button:focus {
+       outline: 0 none;
+       outline-offset: 0;
+       box-shadow: none; 
+   }
+}
+
+.p-inputtt.p-inputtext{
+      width: 100% !important;
+        height: 37px;
+  }
+
+  .p-calendar-w-btn .p-inputtext {
+    height: 37px;
+    
+  }
+  .p-button.p-button-icon-only {
+    height: 37px ;
+    
+  }
+  .p-calendar{
+    width: 100% !important;
+  }
+
+   
+

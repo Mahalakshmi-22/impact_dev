@@ -9,7 +9,14 @@ import { TeamComponent } from './team/team.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { LayoutComponent } from './layout/layout.component';
-
+import { SidebarModule } from 'primeng/sidebar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TreeSelectModule } from 'primeng/treeselect';
+import { ReactiveFormsModule } from '@angular/forms';
+import { DropdownModule } from 'primeng/dropdown';
+import { CheckboxModule } from 'primeng/checkbox';
+import { InputTextModule } from 'primeng/inputtext';
+import { CalendarModule } from 'primeng/calendar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +29,12 @@ import { LayoutComponent } from './layout/layout.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ButtonModule
+    ButtonModule,
+    SidebarModule,
+    BrowserAnimationsModule,
+    TreeSelectModule,
+    ReactiveFormsModule,
+    DropdownModule,CheckboxModule,InputTextModule,CalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
