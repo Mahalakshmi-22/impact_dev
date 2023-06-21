@@ -34,6 +34,7 @@ import { PasswordResetComponent } from './password-reset/password-reset.componen
 import { PaginatorModule } from 'primeng/paginator';
 
 import { TabViewModule } from 'primeng/tabview';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { TabViewModule } from 'primeng/tabview';
   
     LayoutComponent,
     SetpasswordComponent,
-    PasswordResetComponent
+    PasswordResetComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,CardModule,

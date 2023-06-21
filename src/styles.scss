@@ -5,8 +5,9 @@
       width: 500px !important;
     }
   }
-  input {
+  .p-input {
     width: 100% !important;
+  
   }
   .p-dropdown {
     width: 100% !important;
@@ -66,19 +67,19 @@
     width: 100% !important;
   }
 
-  p-radioButton{
+  .p-radioButton{
     display: flex;
     flex-direction: row !important;
-    // color: aqua;
+ 
     
   }
 }
 
 .p-component {
-
     width: 100%;
-
 }
+
+
 
 .card-head {
     .tab {
@@ -122,13 +123,9 @@
     }
 }
 
-/* You can add global styles to this file, and also import other style files */
-
-   
-// }
 #team{
     .p-sidebar{
-        width: 40%;
+        width: 500px;
     }
 }
 #team{
@@ -144,14 +141,13 @@
         width: 100% !important;
         height: 37px;
 }
-        // padding: 0px;
     }
-    .p-sidebar{
-        top: 0;
-        left: 0;
-        width: 50%;
-        height: 100%;
-    }
+    // .p-sidebar{
+    //     top: 0;
+    //     left: 0;
+    //     width: 50%;
+    //     height: 100%;
+    // }
     
    
     .canceled{
@@ -170,7 +166,7 @@
     color:black;
     border-color:black;
 }
-p-button:focus {
+.p-button:focus {
     box-shadow: none; 
 }
     
