@@ -1,10 +1,21 @@
-<div  class="card-head">
-    <p-card>
-        <div class="card-welcome">
-            <p>welcome !</p>
-        </div>
-        <div class="tab">
-            <p-tabMenu [model]="items" [activeItem]="activeItem">Overview</p-tabMenu>
-        </div>
-    </p-card>
+<div class="card-head">
+    <div class="card-welcome">
+        <p>welcome !</p>
+    </div>
+    <div class="tab">
+        <p-tabView>
+            <p-tabPanel header="Header I">
+                <app-dashboard></app-dashboard>
+            </p-tabPanel>
+            <p-tabPanel header="Header II">
+                <app-employee-details></app-employee-details>
+            </p-tabPanel>
+            <p-tabPanel header="Header III">
+                <app-team></app-team>
+            </p-tabPanel>
+        </p-tabView>
+        <router-outlet></router-outlet>
+
+    </div>
+
 </div>
