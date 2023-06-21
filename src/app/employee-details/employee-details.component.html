@@ -1,1 +1,142 @@
-<p>employee-details works!</p>
+
+<div class="side">
+  <div class="card flex justify-content-center">
+    <p-sidebar [(visible)]="sidebarVisible" position="right" class="side-bar">
+      <ng-template class="header" pTemplate="header">Add new user</ng-template>
+
+      <ng-template class="content" pTemplate="content">
+        <label id="headline">Employee Name:</label>
+        <div class="name">
+          <input
+            type="text"
+            placeholder="Enter"
+            pInputText
+            [(ngModel)]="value"
+          />
+        </div>
+
+        <div>
+          <label id="headline">Mobile Number:</label>
+          <div class="Mobile-number">
+            <input
+              type="text"
+              placeholder="Enter"
+              pInputText
+              [(ngModel)]="value"
+            />
+          </div>
+        </div>
+
+        <label id="headline">Role:</label>
+        <div class="role">
+          <p-dropdown [options]="cities"
+            [(ngModel)]="selectedCity"
+            optionLabel="name"
+          ></p-dropdown>
+        </div>
+
+        <label id="headline">Languages Know:</label>
+
+        <div class="know">
+          <div class="card">
+            <p-checkbox
+              class="checkbox"
+              name="group1"
+              value="New York"
+              [(ngModel)]="selectedCities"
+              inputId="ny"
+            >
+            </p-checkbox>
+            <label for="ny">English</label>
+          </div>
+          <div class="card flex justify-content-center">
+            <p-checkbox
+              class="checkbox"
+              name="group1"
+              value="San Francisco"
+              [(ngModel)]="selectedCities"
+              inputId="sf"
+            ></p-checkbox>
+            <label for="sf">Tamil</label>
+          </div>
+          <div class="card flex justify-content-center">
+            <p-checkbox
+              class="checkbox"
+              name="group1"
+              value="Los Angeles"
+              [(ngModel)]="selectedCities"
+              inputId="la"
+            ></p-checkbox>
+            <label for="la">Hindi</label>
+          </div>
+
+          <div class="card flex justify-content-center">
+            <p-checkbox
+              class="checkbox"
+              name="group1"
+              value="Los Angeles"
+              [(ngModel)]="selectedCities"
+              inputId="la"
+            ></p-checkbox>
+            <label for="la">Marathi</label>
+          </div>
+        </div>
+
+        <label id="headline">Married:</label>
+
+        <div>
+          <div class="yes-no">
+            <p-radioButton
+            name="pizza"
+            class="checkbox"
+            value="Cheese"
+            [(ngModel)]="ingredient"
+            inputId="ingredient1"
+          ></p-radioButton>
+          <label for="ingredient1" class="ml-2">Yes</label>
+        </div>
+          <div class="yes-no">
+            <p-radioButton
+            name="pizza"
+            class="checkbox"
+            value="Mushroom"
+            [(ngModel)]="ingredient"
+            inputId="ingredient2"
+          ></p-radioButton>
+          <label for="ingredient2" class="ml-2">No</label>
+          </div>
+        
+        </div>
+        <label id="headline">DOB:</label>
+        <div class="dob">
+          <p-calendar [(ngModel)]="date" [showIcon]="true"></p-calendar>
+        
+        </div>
+        <label id="headline">Remarks:</label>
+        <div class="remarks">
+          <textarea
+            rows="5"
+            cols="30"
+            pInputTextarea
+            [(ngModel)]="value"
+          ></textarea>
+        </div>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <div class="footer">
+          <div class="cancel">
+            <p-button label="cancel"></p-button>
+          </div>
+          <div class="buttonEmployee">
+            <p-button label="Add User"></p-button>
+          </div>
+        </div>
+      </ng-template>
+    </p-sidebar>
+
+    <p-button
+      (click)="sidebarVisible = true"
+      icon="pi pi-arrow-right"
+    ></p-button>
+  </div>
+</div>

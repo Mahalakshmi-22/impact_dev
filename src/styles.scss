@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+.side {
+    
+  .side-bar {
+    .p-sidebar {
+      width: 500px !important;
+    }
+  }
+  input {
+    width: 100% !important;
+  }
+  .p-dropdown {
+    width: 100% !important;
+  }
+  .p-checkbox {
+    width: 100% !important;
+  }
+  .dob {
+    width: 100% !important;
+  }
+
+  .cancel {
+    display: flex;
+    justify-content: flex-end;
+
+    .p-button:enabled:hover {
+        background:none; 
+        color:black;
+        border-color:none;
+    }
+    .p-button {
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: flex-end;
+      
+    }
+    .p-button {
+        
+        height: 32px;
+       }
+  }
+
+  .buttonEmployee {
+    display: flex;
+    justify-content: flex-end;
+    .p-button {
+      height: 32px;
+    }
+  }
+  .header {
+    font-weight: 700;
+    border-bottom: 20px solid #f8f9fa;
+  } 
+  .p-sidebar-header{
+    border-bottom: 3px solid #f8f9fa;
+    font-weight: 700;
+    color: black !important;
+    font-size: 16px;
+
+  }
+
+  .p-calendar{
+    width: 100% !important;
+  }
+  .textarea{
+    width: 100% !important;
+  }
+
+  p-radioButton{
+    display: flex;
+    flex-direction: row !important;
+    // color: aqua;
+    
+  }
+}
+

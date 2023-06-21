@@ -1,0 +1,80 @@
+
+.name{
+    height: 62px;
+    margin-top: 10px;
+}
+.Mobile-number{
+    height: 62px;
+    margin-top: 10px;
+}
+.role{
+    height: 62px;
+    margin-top: 10px;
+}
+
+.dob{
+    height: 62px;
+    margin-top: 10px;
+}
+
+.know{
+    height: 62px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .checkbox{
+        padding-right: 10px;
+    }
+   
+}
+
+    // display: flex;
+    // flex-direction:row  !important ;
+    // text-align: start;
+    // justify-content: left;
+.yes-no{
+    
+    display: flex;
+    flex-direction: row !important;
+    
+    .checkbox{
+        padding-right: 10px;
+    }
+
+
+    // display: flex;
+    // flex-direction: row !important;
+    
+    // justify-content: space-evenly;
+    .checkbox{
+        padding-right: 10px;
+    }
+        
+    }
+
+
+
+.remarks{
+    height: 62px;
+    margin-top: 10px;
+}
+.header{
+    font-weight: 700;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+#headline{
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+
+}
+textarea{
+    width: 100%;
+  }
