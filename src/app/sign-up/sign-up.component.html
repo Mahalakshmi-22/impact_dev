@@ -1,1 +1,65 @@
-<p>sign-up works!</p>
+<div class="setPass">
+  <div class="left-side">
+    <img src="../../assets/image 2.svg" alt="" />
+  </div>
+  <div class="right-side">
+
+    <div class="right">
+      <div class="team-name">
+        <img src="../../assets/Group 48097351.svg" alt="" />
+        <p>Impact_Dev</p>
+      </div>
+  
+      <div class="passBox">
+        <div class="side-head">
+          <h3>Sign In</h3>
+        </div>
+  
+        <form [formGroup]="formgroup">
+          <div class="inputs">
+            <div class="input-new-Pass">
+              <div class="label">
+                <label class="mail" for="email">User Name</label>
+              </div>
+              <div class="input-tag">
+                <input
+                  formControlName="email"
+                  pInputText
+                  id="email"
+                  placeholder="Enter the email"
+                />
+              </div>
+            </div>
+  
+            <div class="input-cfrm-Pass">
+              <div class="label">
+                <label for="password">Password</label>
+              </div>
+              <div class="input-tag">
+                <input
+                  formControlName="password"
+                  pInputText
+                  id="password"
+                  placeholder="Enter the password"
+                />
+              </div>
+              <div class="forget">
+                <a href="#">Forgot Password?</a>
+              </div>
+              <div class="set-div">
+                <p-button label="Sign in"></p-button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="vector">
+          <img src="../../assets/shopping--cart.svg" alt="" />
+          <p>welcome</p>
+        </div>
+  
+      </div>
+    </div>
+
+  </div>
+
+</div>

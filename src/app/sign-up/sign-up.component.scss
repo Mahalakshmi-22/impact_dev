@@ -1,0 +1,115 @@
+
+.setPass{
+    width: 100%;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left-side{
+    width: 50%;
+    img{
+        width: 50vw;
+        height: 100%;
+    }
+}
+
+.right-side {
+    width: 50%;
+    .right{
+        width: 50vw;
+        height: 100%;
+    }
+}
+
+.team-name{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.team-name p {
+    font-family: Sansation;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.passBox{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.passBox .side-head{
+    font-family: Sansation;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    .input-new-Pass{
+        padding-bottom:20px ;
+        .input-new-Pass input{
+            margin-bottom: 10px;
+        }
+    }
+    .input-cfrn-Pass{
+        padding-bottom:20px ;
+        label{
+            margin-bottom: 10px;
+        }
+    }
+
+    .set-div{
+        padding-top: 10px;
+        h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.forget {
+    text-align: right;
+    padding-top: 15px;
+    a{
+        color: #1976D2;
+    }
+}
+
+.vector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector p{
+    margin: 1px;
+    font-size: 23px;
+}
+
+.vector img{
+    margin-top: 50px;
+    width:24px;
+    height:24px;
+}
+
+.label{
+    padding-bottom: 7px;
+}
