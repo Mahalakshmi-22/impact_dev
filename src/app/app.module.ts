@@ -18,6 +18,7 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { SetpasswordComponent } from './setpassword/setpassword.component';
 import { PasswordResetComponent } from './password-reset/password-reset.component';
 import { TabViewModule } from 'primeng/tabview';
+import { PasswordModule } from 'primeng/password';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,8 +39,10 @@ import { TabViewModule } from 'primeng/tabview';
     TableModule,
     InputSwitchModule,
     FileUploadModule,
-    FormsModule,InputTextModule,
-    TabMenuModule
+    FormsModule,
+    InputTextModule,
+    TabMenuModule,
+    PasswordModule
   ],
   providers: [],
   bootstrap: [AppComponent]
