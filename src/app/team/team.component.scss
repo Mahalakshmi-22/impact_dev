@@ -1,0 +1,41 @@
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: black;
+}
+.p-dropdown{
+
+    height: 50px;
+
+
+}
+label{
+    margin-bottom: 10px;
+}
+
+.button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+
+  .year-placehoder.p-inputtext::placeholder {
+      position: absolute;
+      right: 10px;
+    }
+
+    .check{
+        padding: 10px;
+    }
+  
+
+  
+

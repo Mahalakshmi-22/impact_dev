@@ -1,1 +1,80 @@
-<p>team works!</p>
+<div class="card">
+  <div id="team" class="card flex justify-content-center">
+  
+
+
+
+<p-sidebar [(visible)]="sidebarVisible"  position="right" class="side-bar">
+      <ng-template pTemplate="header">Team Details</ng-template>
+      <ng-template pTemplate="content">
+        <form [formGroup]="teamForm">
+          <div class="form-group">
+            <label for="name">employee Name</label>
+            <div class="input">
+              <p-dropdown
+                formControlName="name"
+                [options]="employeeName"
+                placeholder="Choose"
+                optionLabel="name"
+              ></p-dropdown>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="lead" for="lead">Team Lead</label>
+            <div class="input">
+              <p-dropdown
+                formControlName="TeamLead"
+                id="lead"
+                [options]="teamLead"
+                placeholder="Choose"
+                optionLabel="Team Lead"
+              ></p-dropdown>
+            </div>
+            <div class="check">
+              <p-checkbox  formControlName="checked"  [binary]="true" label="Certificate of Competency" inputId="binary" ></p-checkbox>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="experience">Experience</label>
+            <div class="input">
+              <input type="text" pInputText id="experience" class="p-inputtt year-placehoder" formControlName="value" placeholder="Yrs"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Lead">Salery(per month)</label>
+            <div class="input">
+              <input type="text" pInputText class="p-inputtt" formControlName="value" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Lead">join of date</label>
+            <div class="input">
+              <p-calendar formControlName="date" [showIcon]="true"></p-calendar>
+            </div>
+          </div>
+        </form>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <div class="button">
+          <div class="canceled">
+            <p-button label="Cancel"></p-button>
+          </div>
+
+          <div class="submit">
+            <p-button label="Submit"></p-button>
+          </div>
+        </div>
+      </ng-template>
+    </p-sidebar>
+
+    <p-button
+      (click)="sidebarVisible = true"
+      icon="pi pi-arrow-right"
+    ></p-button>
+  </div>
+</div>
+
+<div></div>
